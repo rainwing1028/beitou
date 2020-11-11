@@ -12,6 +12,7 @@ function staticLoadPlaces() {
     return [{
         name: 'Pokèmon',
         location: {
+
             lat: 25.089062,
             lng: 121.480865,
         },
@@ -81,5 +82,4 @@ function renderPlaces(places) {
 
         scene.appendChild(model);
     });
-}
 }
